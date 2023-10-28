@@ -1,0 +1,37 @@
+body
+{
+background-color:#fbd139;
+}
+
+h1{
+  background-color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
+
+  canvas{
+    margin-top:110px;
+    animation-name: shadowcolor;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+  }
+
+  @keyframes shadowcolor{
+    from{box-shadow:1px 1px 30px rgb(194, 61, 61)}
+    to{box-shadow:1px 1px 30px rgb(15, 21, 191);}
+  }
